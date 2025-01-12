@@ -13,6 +13,10 @@
 
   
 # Skills Learned
+- How to use nmap in kali
+- what msfvenom can do
+- Building a malware file using msfvenom
+- Executing malware after being built
 
 # Steps
 
@@ -37,6 +41,24 @@
   - The payload I decided to land on is in the pic below
 
     ![image](https://github.com/user-attachments/assets/63039cc3-9eb2-4b6e-9a05-46f924155f4e)
+
+  - Building out my malware using msfvenom
+
+    ![image](https://github.com/user-attachments/assets/4b643327-a99b-413e-9766-6449345d6efc)
+
+  - File should be generated
+  - Port 4444 is the default port for meterpreter
+  - Make sure the file has been created using ls command
+    
+    
+   ![image](https://github.com/user-attachments/assets/252e108d-7839-4f66-a67e-cecc223e90cf)
+
+  - Now im going to be openning a handler to listen in on port that i want to execute on by using msfconsole command
+ 
+    
+
+    
+
 
     
 
