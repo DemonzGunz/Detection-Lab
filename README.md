@@ -69,12 +69,48 @@
   - Type in set lhost (ip address) to change the lhost settings
   - Then type in the command: exploit to start listening in on our target computer. At this point we are listening in and waiting on our test maching to download our malware
 
+   ![image](https://github.com/user-attachments/assets/2c73391f-e512-4f2d-a972-70af43e1a00d)
+
+  ![image](https://github.com/user-attachments/assets/e2060146-b549-439b-a919-ad4ee0e881a9)
+
+  - Failed to bind to my windows VM so I will be doing some reserch
+  - Used the incorrect ip address the lhost address needs to be the ip address of the host VM not the target VM
+
+  ![image](https://github.com/user-attachments/assets/804c8a6a-24bc-4f1e-858d-679d2ac1b32a)
+
 
   - Open up a new tab in the terminal and make sure you are in the same directory as the malware file
   - Type in the command: python3 -m http.server (port number)
- 
+
+   ![image](https://github.com/user-attachments/assets/33d0e4f1-a132-4f86-832a-ebca60acfef4)
+
 
    - This should allow our test maching to start downloading malware from our kali linux VM
+   - Open you windows VM disable real time protection under viruse and threat protection in the settings.
+   - Type in the ip address for your open browser sever in your perfered browser. Then download the infected link
+
+     ![image](https://github.com/user-attachments/assets/fe758f2c-34fd-44ff-b779-c7d4444c419a)
+
+  - Windows protected my pc even while on an internal network
+
+    ![image](https://github.com/user-attachments/assets/d132cde5-45f1-4109-9314-d33b2bbbe933)
+
+  - Checking to see if there was an established connection
+
+    ![image](https://github.com/user-attachments/assets/a87b7ab9-67d4-40f8-a736-dda0fd5d4fc4)
+
+  - Unfortunatly it dosent show that the link has been established in the command prompt command that was used was: netstat -anob
+ 
+
+  - I did find the program running in the task manager tricky little malware 
+
+
+   ![image](https://github.com/user-attachments/assets/69856bd1-b361-45e3-a6f1-2485166f795e)
+
+  - Still no luck on getting an established link to generate telemetry to spot in my Spunk program will try again another time 
+
+
+     
 
 
 
